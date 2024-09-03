@@ -1,0 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(147, 72, 72); */
+}
+nav{
+    position: sticky !important;
+}

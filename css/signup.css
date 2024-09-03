@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url(./Image/img2.png);
+    background-size:contain; 
+    background-repeat: no-repeat;
+    background-position: 500px;
+    background-color: rgb(107, 246, 200);
+}
+.con{
+    width: 30vw;
+    height: 75vh;
+    margin-top: 90px;
+    margin-left: 70px;
+    border: 0.001px solid gray;
+    background-color: #ffffff;
+    padding: 30px;
+    padding-top: 20px;
+    border-radius: 5%;
+    box-shadow: 0 2px 4px 6px rgb(65, 148, 110);
+}
+.con h1{
+    color: rgb(12, 137, 96);
+    text-align: center;
+}
+.con p{
+    color: rgb(12, 137, 96);
+    text-align: center;
+    font-size: 17px;
+}
+.con p a{
+    text-decoration: none;
+    color: blue;
+}
+.con p a:hover{
+    color: rgb(12, 137, 96);
+}
+.input{
+    color: rgb(12, 137, 96);
+    font-size: 17px;
+    padding: 5px;
+    margin-left: 28px;
+}
+.input input{
+    width: 300px;
+    height: 30px;
+    font-size: 17px;
+    padding: 5px;
+    outline: none;
+    border: 1px solid gray;
+    background-color: #f8f6f6;
+    border-top: none;
+    border-right: none;
+   
+    color: #000000;
+    
+}
+span{
+     display: block;
+     padding-bottom: 5px;
+     margin-left: 1px;
+}
+.btn{
+    padding: 5px;
+    font-size: 17px;
+    color: rgb(107, 246, 200);
+    text-align: center;
+    margin-right: 35px;
+}
+.btn button{
+    width: 300px;
+    height: 30px;
+    background-color: rgb(110, 231, 221);
+    color: #ffffff;
+    border: 0.1px solid gray;
+}
+.p{
+    margin-left: 40px;
+    color: rgb(12, 137, 96);
+}
+.logo{
+    margin-left: 110px;
+    margin-top: 5px;
+    display: flex;
+}
+.logo .fa{
+    width: 50px;
+    height: 50px;
+    color: rgb(56, 56, 206);
+    cursor: pointer;
+    padding: 5px;
+}
+.logo .fa:hover{
+    color: rgb(12, 137, 96);
+}

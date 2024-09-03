@@ -1,0 +1,57 @@
+div.container-fluid h1 {
+    color: blue;
+    background-color: #acd487;
+    font-family: Gill Sans MT;
+    font-size: 20px;
+}
+
+div.container-fluid div#s1 {
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+
+div.container-fluid div#s0 img {
+    border: 2px dashed blue;
+}
+
+div.container-fluid div#s0 img#img1 {
+    position: absolute;
+    top: 115px;
+    left: 15px;
+}
+
+div.container-fluid div#s0 img#img2 {
+    position: absolute;
+    top: 180px;
+    left: 15px;
+}
+
+div.container-fluid div#s1 input#btn1 {
+    padding: 5px;
+    width: 65px;
+}
+
+div.container-fluid div#s1 input#btn2 {
+    padding: 5px;
+    width: 65px;
+}
+
+div.container-fluid div#s1 input#btn3 {
+    padding: 5px;
+    width: 65px;
+}
+
+div.container-fluid div#s1 input {
+    border: 2px solid #aedfac;
+    color: red;
+}
+
+div.container-fluid div#s1 textarea {
+    border: 2px solid #aedfac;
+}
+
+div.container-fluid div#s1 select {
+    border: 2px solid #aedfac;
+
+}

@@ -1,0 +1,44 @@
+.bodypopup {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+.popupbtn{
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    background-color: #3412E0;
+    border: none;
+    color: white;
+}
+.popupmsg {
+    display: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 36px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    z-index: 1;
+    width: 24rem;
+    border-radius: 0.5rem;
+}
+
+.popup-content {
+    max-width: 700px;
+}
+
+.close_acc {
+    cursor: pointer;
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    font-size: 2rem;
+}
+
+
